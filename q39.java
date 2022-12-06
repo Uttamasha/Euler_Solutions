@@ -8,16 +8,16 @@ public final class q39{
 	
 	
 	public String run() {
-		int mPer = 0;
-		int mTri = 0;
+		int Per = 0;
+		int Tri = 0;
 		for (int i = 1; i <= 1000; i++) {
 			int triangles = count(i);
-			if (triangles > mTri) {
-				mTri = triangles;
-				mPer = i;
+			if (triangles > Tri) {
+				Tri = triangles;
+				Per = i;
 			}
 		}
-		return Integer.toString(mPer);
+		return Integer.toString(Per);
 	}
 	
 	
