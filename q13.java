@@ -9,10 +9,6 @@ public final class q13{
 		System.out.println(new q13().run());
 	}
 	
-	
-	/* 
-	 * We do a straightforward sum with help from Java's BigInteger type.
-	 */
 	public String run() {
 		BigInteger sum = BigInteger.ZERO;
 		for (String num : NUMBERS)
@@ -21,7 +17,7 @@ public final class q13{
 	}
 	
 	
-	private static String[] NUMBERS = {
+	public static String[] NUMBERS = {
 		"37107287533902102798797998220837590246510135740250",
 		"46376937677490009712648124896970078050417018260538",
 		"74324986199524741059474233309513058123726617309629",
